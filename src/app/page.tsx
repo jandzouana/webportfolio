@@ -1,8 +1,20 @@
 import Image from "next/image";
+import "./main.css";
+import Sidebar from "@/app/components/sidebar/Sidebar";
+import About from "@/app/components/about/About";
+import Portfolio from "@/app/components/portfolio/Portfolio";
+import Home from "@/app/components/home/Home";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-    </main>
+      <>
+        <Sidebar/>
+        <main className="">
+          <Home/>
+          <About/>
+
+        </main>
+      </>
+
   );
 }
