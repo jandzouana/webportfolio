@@ -15,9 +15,9 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
+      // <script src="https://kit.fontawesome.com/003916f960.js" crossOrigin="anonymous"></script>
     <html lang="en">
-    <link rel="stylesheet" href="./assets/css/simple-line-icons.css" />
-    <body className={inter.className}>{children}</body>
+    <body>{children}</body>
     </html>
   );
 }
