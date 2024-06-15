@@ -1,0 +1,21 @@
+.skills__container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.skill__box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.skill__logo{
+    height: 30px;
+    width: 30px;
+}
+
+.skill__name{
+    color: var(--light-grey);
+}

@@ -2,10 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="45bfbb6d-1925-4f5e-8e33-d6211d496c48" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/public/resume.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/interfaces.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/about/About.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/about/About.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/about/about.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/about/about.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/components/landing/LandingSocials.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/landing/LandingSocials.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/components/sidebar/sidebar.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/sidebar/sidebar.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/constants.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/constants.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/page.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,7 +95,7 @@
       <option name="presentableId" value="Default" />
       <updated>1718402931938</updated>
       <workItem from="1718402936337" duration="1354000" />
-      <workItem from="1718404383477" duration="20153000" />
+      <workItem from="1718404383477" duration="22264000" />
     </task>
     <servers />
   </component>
