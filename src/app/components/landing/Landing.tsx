@@ -1,6 +1,6 @@
 import React from 'react'
 import "./landing.css";
-import Me from "../../assets/icons/avatar-1.svg";
+import Me from "../../assets/icons/avatar.jpg";
 import Image from "next/image";
 import LandingSocials from "./LandingSocials";
 import ScrollDown from "./ScrollDown";
@@ -16,7 +16,9 @@ const Landing = () => {
                     <p className="about__blurb">{aboutBlurb}</p>
                     <LandingSocials/>
                 </div>
-                <Image src={Me} alt="me" className="landing__img"/>
+                <div className="landing__img">
+                    <Image src={Me} alt="me" />
+                </div>
             </div>
             <ScrollDown/>
         </section>

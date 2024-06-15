@@ -13,7 +13,7 @@
 }
 
 .left {
-    width: 50%;
+    width: 60%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -24,7 +24,15 @@
 }
 
 .landing__img {
-    width: 40%;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.landing__img img{
+    border-radius: 50%;
+    object-fit: cover;
 }
 
 .landing__header {
