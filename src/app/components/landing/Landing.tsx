@@ -9,13 +9,13 @@ const Landing = () => {
     return (
         <section className="home container" id="home">
             <div className="intro">
-                <Image src={Me} className="home__img"/>
-            </div>
-            <h1 className="home__name">Jessica Andzouana</h1>
-            <span className="home__education">I&#39;m a frontend developer</span>
-            <HeaderSocials/>
+                <Image src={Me} alt="me" className="home__img"/>
+                <h1 className="home__name">Jessica Andzouana</h1>
+                <span className="home__education">I&#39;m a frontend developer</span>
+                <HeaderSocials/>
 
-            <ScrollDown/>
+                <ScrollDown/>
+            </div>
         </section>
     )
 }

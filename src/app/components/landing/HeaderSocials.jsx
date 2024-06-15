@@ -8,10 +8,10 @@ const HeaderSocials = () => {
         <div className="home__socials">
             <button className="resume__button btn">Resume</button>
             <a href="https://linkedin.com/in/jandzouana" className="home__social-link" target="_blank">
-                <Image className={"social-icons"} src={linkedin}/>
+                <Image className={"social-icons"} alt="linkedin" src={linkedin}/>
             </a>
             <a href="https://github.com/jandzouana" className="home__social-link" target="_blank">
-                <Image className={"social-icons"} src={github}/>
+                <Image className={"social-icons"} alt="github" src={github}/>
             </a>
         </div>
     )

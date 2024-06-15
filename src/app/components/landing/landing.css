@@ -1,3 +1,11 @@
+.home{
+    position: relative;
+    min-height: 100svh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .resume__button{
     background-color: var(--main-color);
     color: white;
