@@ -45,7 +45,7 @@ const Sidebar : React.FC<Props> = () => {
                 </div>
             </nav>
             <div className="nav__footer">
-                <span className="copyright">Copyright &copy; Jessica Andzouana 2024</span>
+                <span className="copyright">Copyright 2024 &copy; Jessica Andzouana</span>
             </div>
         </aside>
     )
