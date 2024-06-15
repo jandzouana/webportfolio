@@ -11,7 +11,7 @@ export default function Home() {
   return (
       <>
         <Sidebar/>
-        <main className="">
+        <main className="main">
             <Landing/>
             <About/>
             <Portfolio/>
