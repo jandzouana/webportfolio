@@ -1,18 +1,13 @@
-.landing{
+.landing {
     position: relative;
     min-height: 100svh;
     display: flex;
     flex-direction: column;
-    /*align-items: center;*/
-    /*justify-content: center;*/
-    /*border: 2px solid green;*/
-    /*width: calc(100% - 110px);*/
 }
 
-.intro{
+.intro {
     flex: 1 1 auto;
     display: flex;
-    /*border: 2px solid red;*/
     justify-content: space-between;
 }
 
@@ -23,55 +18,118 @@
     justify-content: center;
 }
 
-.landing__name{
+.landing__name {
     color: var(--main-color);
 }
 
-.landing__img{
+.landing__img {
     width: 40%;
 }
 
-.landing__header{
+.landing__header {
     font-size: var(--xl-font-size);
     font-weight: var(--font-semibold);
     margin-top: 1.5rem;
     line-height: 1;
 }
 
-.text-animation{
+.text-animation {
+    position: relative;
     margin-bottom: 2rem;
     margin-top: 1rem;
     font-size: var(--large-font-size);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+    overflow: hidden;
 }
 
-.resume__button{
+.text-animation span {
+    position: relative;
+    white-space: nowrap;
+    overflow: hidden;
+    display: inline-block;
+    /*animation: typing 20s steps(40) infinite;*/
+}
+
+.text-animation span::before {
+    content: " Frontend Developer";
+    color: var(--accent-color);
+    animation: words 20s infinite;
+}
+
+.text-animation span::after {
+    content: "";
+    position: absolute;
+    background-color: var(--body-color);
+    border-left: 3px solid var(--body-color);
+    width: calc(100% + 18px);
+    height: 100%;
+    right: 0px;
+    animation: cursor 0.6s infinite, typing 20s steps(14) infinite;
+    /*animation: cursor 0.6s steps(40) infinite;*/
+}
+
+@keyframes cursor {
+    to{
+        border-left: 2px solid var(--main-color);
+    }
+}
+
+@keyframes words {
+    0%, 20% {
+        content: "Frontend Developer";
+    }
+    21%, 40% {
+        content: "Mobile Developer";
+    }
+    41%, 60% {
+        content: "Multidisciplinary Artist";
+    }
+    61%, 80% {
+        content: "Software Engineer";
+    }
+    81%, 100% {
+        content: "AR/VR Developer";
+    }
+}
+
+@keyframes typing {
+    5%, 20%, 25%, 40%, 45%, 60%, 65%, 80%, 85% {
+        width: 100%;
+    }
+    10%, 15%, 30%, 35%, 50%, 55%, 70%, 75%, 90%, 95% {
+        width: 0;
+    }
+}
+
+.resume__button {
     background-color: var(--main-color);
     color: white;
 }
 
-.social-icons{
+.social-icons {
     width: 30px;
     height: 30px;
     opacity: 60%;
     transition: opacity 0.3s ease;
 }
 
-.social-icons:hover{
+.social-icons:hover {
     opacity: 100%;
 }
 
-.landing__socials{
+.landing__socials {
     margin-top: 1rem;
     display: flex;
-    /*column-gap: 20px;*/
     flex-basis: 60px;
-    /*border: 1px solid purple;*/
     align-items: center;
     width: 100%;
     justify-content: space-between;
 }
 
-.landing__socials > div{
+.landing__socials div {
     display: flex;
-    gap:10px;
+    gap: 10px;
 }
