@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="45bfbb6d-1925-4f5e-8e33-d6211d496c48" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/app/assets/icons/avatar.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/resume.pdf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/components/landing/Landing.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/landing/Landing.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/components/landing/landing.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/landing/landing.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/landing/LandingSocials.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/landing/LandingSocials.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/sidebar/sidebar.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/sidebar/sidebar.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,7 +32,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/jessi/Desktop/Jessica2024/Dev/WebPortfolio/WebPortfolio/src/app/assets/icons",
+    "last_opened_file_path": "C:/Users/jessi/Desktop/Jessica2024/Dev/WebPortfolio/WebPortfolio/public",
     "node.js.detected.package.eslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
@@ -42,6 +42,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\jessi\Desktop\Jessica2024\Dev\WebPortfolio\WebPortfolio\public" />
       <recent name="C:\Users\jessi\Desktop\Jessica2024\Dev\WebPortfolio\WebPortfolio\src\app\assets\icons" />
     </key>
   </component>
@@ -91,7 +92,7 @@
       <option name="presentableId" value="Default" />
       <updated>1718402931938</updated>
       <workItem from="1718402936337" duration="1354000" />
-      <workItem from="1718404383477" duration="19451000" />
+      <workItem from="1718404383477" duration="20153000" />
     </task>
     <servers />
   </component>
