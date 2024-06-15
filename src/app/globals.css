@@ -7,6 +7,7 @@
 :root {
   /*=========== Colors ===========*/
   --main-color: hsl(353, 100%, 65%);
+  --accent-color: hsl(220, 100%, 54%);
   --dark-grey: hsl(244, 24%, 26%);
   --light-grey: hsl(244, 16%, 43%);
   --body-color: hsl(258, 60%, 98%);
