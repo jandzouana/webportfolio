@@ -82,7 +82,7 @@
 
 @keyframes cursor {
     to{
-        border-left: 2px solid var(--main-color);
+        border-left: 2px solid var(--accent-color);
     }
 }
 

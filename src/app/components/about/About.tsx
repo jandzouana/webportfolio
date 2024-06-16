@@ -11,6 +11,7 @@ const About : React.FC<Props> = () => {
     const makeSkillsGrid = () => {
         const list = skillsList.map((skill, idx) => <div className={"skill__box"} key={idx}>
             {skill.image && <Image className="skill__logo" src={skill.image} alt="skill-image"/>}
+            {!skill.image && <div className="skill__placeholder"></div>}
             <div className="skill__name">{skill.name}</div>
         </div>)
 
