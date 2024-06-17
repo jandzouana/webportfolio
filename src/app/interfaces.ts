@@ -13,3 +13,12 @@ export interface ExperienceType {
     location: string;
     desc: string;
 }
+
+export interface Project {
+    title: string;
+    tags: string[];
+    demoLink: string;
+    github?: string;
+    desc: string;
+    thumbs?: StaticImageData[] | null;
+}

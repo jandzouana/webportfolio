@@ -13,7 +13,7 @@ import eth from './assets/skills/ethereum.svg';
 import react from './assets/skills/react.svg';
 import p5 from './assets/skills/p5js.svg';
 
-import {ExperienceType, Skill} from "@/app/interfaces";
+import {ExperienceType, Project, Skill} from "@/app/interfaces";
 import {ExpCategory} from "@/app/enums";
 
 export const aboutBlurb : string = "I'm a passionate and versatile software engineer with a unique blend of expertise in computer science and art. I specialize in crafting innovative, user-friendly applications that prioritize aesthetics and exceptional user experiences. Currently, I am working at CompetesTV where I lead the development of a web app that empowers content creators.  Welcome to my portfolio, where technology and creativity converge.";// "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam euismod, nisl eget aliquam ultricies, nunc nisl aliquet nunc, eget aliquam nisl nunc eget nisl. Curabitur est mi, rutrum a libero id, mollis gravida metus. Vivamus fermentum, ex in euismod tincidunt, ex risus porta risus, vel fringilla felis nunc non felis.";
@@ -64,5 +64,22 @@ export const experienceList: ExperienceType[] = [
         location: "Santa Clara University",
         title: "BS Computer Science, BA Studio Art",
         desc: "Graduated from Santa Clara University with a double major in Computer Science and Studio Art. This unique combination provided a robust foundation in software development and technical problem-solving, complemented by creative skills in visual design and artistic expression. Developed a versatile skill set, blending analytical thinking with artistic creativity, preparing for innovative contributions in both tech and creative industries."
+    }
+];
+
+export const projects : Project[] = [
+    {
+        title: "Concept AI",
+        desc: "Character Design project",
+        tags: ["React", "Typescript", "Tailwind CSS"],
+        github: "https://github.com",
+        demoLink: "https://"
+    },
+    {
+        title: "WordFlex",
+        desc: "Translator project",
+        tags: ["React", "Typescript", "CSS"],
+        github: "https://github.com",
+        demoLink: "https://"
     }
 ]
