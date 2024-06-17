@@ -1,7 +1,7 @@
 .landing {
     position: relative;
     height: 100svh;
-    min-height: 600px;
+    min-height: 620px;
     display: flex;
     flex-direction: column;
 }
@@ -203,4 +203,32 @@
     left: 50%;
     transform: translateX(-50%);
     animation: ani-mouse 2s linear infinite;
+}
+
+@media screen and (max-width: 768px){
+    .landing{
+        height: auto;
+    }
+    .intro{
+        flex-direction: column-reverse;
+        justify-content: flex-end;
+        align-items: center;
+        padding-top: 3rem;
+        gap: 2rem;
+    }
+    .left{
+        width: 100%;
+    }
+    .left p{
+        /*max-height: 100px;*/
+        overflow-y: auto;
+    }
+    .landing__img{
+        align-items: center;
+        justify-content: center;
+        width: 50%;
+    }
+    .scroll__down{
+        display: none;
+    }
 }

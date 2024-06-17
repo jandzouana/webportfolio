@@ -1,6 +1,6 @@
 import React from 'react'
 import "./sidebar.css";
-import Logo from "./../../assets/icons/logo.svg"
+import Logo from "./../../assets/logo/logo.png"
 import Image from "next/image";
 
 interface Props{
@@ -10,8 +10,9 @@ interface Props{
 const Sidebar : React.FC<Props> = () => {
     return (
         <aside className='aside'>
-            <a href="#home" className="nav__logo"></a>
-            <Image src={Logo} alt="Logo"/>
+            <a href="#home" className="nav__logo">
+                <Image src={Logo} alt="Logo"/>
+            </a>
             <nav className="nav">
                 <div className="nav__menu">
                     <ul className="nav__list">
