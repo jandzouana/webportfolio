@@ -20,6 +20,7 @@
   --h1-font-size: 2.25rem;
   --h2-font-size: 1.5rem;
   --h3-font-size: 1.25rem;
+  --h4-font-size: 1.15rem;
 
   --regular-font-size: 1rem;
   --small-font-size: 0.875rem;
@@ -70,6 +71,8 @@ h4{
   font-family: var(--body-font-ital);
   line-height: 1.2;
   font-style: italic;
+  color: rgb(139, 136, 177);
+  font-size: var(--h4-font-size);
 }
 
 ul{
@@ -183,6 +186,7 @@ body {
     --h1-font-size: 1.75rem;
     --h2-font-size: 1.25rem;
     --h3-font-size: 1rem;
+    --h4-font-size: 0.9rem;
 
     --regular-font-size: 0.938rem;
     --small-font-size: 0.813rem;

@@ -17,8 +17,19 @@
 .timeline__double{
     display: flex;
     align-items: center;
-    gap: 0.2rem;
-    /*justify-content: space-between;*/
+    gap: 0.4rem;
+    font-size: var(--h3-font-size);
+    margin: 0.5rem 0;
+}
+
+.timeline__date {
+}
+
+.timeline__title {
+}
+
+.timeline__location{
+    margin-bottom: 0.5rem;
 }
 
 .timeline__item::before{
@@ -41,4 +52,12 @@
     color: var(--main-color);
     background-color: var(--container-color);
     padding: 0.4375rem 0;
+}
+
+@media screen and (max-width: 768px){
+    .timeline__double{
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
 }

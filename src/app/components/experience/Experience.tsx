@@ -19,9 +19,9 @@ function Card(props: { category: ExpCategory, year: string, title: string, desc:
             <i className={props.category === ExpCategory.work ? "icon-briefcase" : "icon-graduation"}></i>
             <div className="timeline__double">
                 <h3 className="timeline__title">{props.title}</h3>
-                <span className="timeline__data">{` (${props.year})`}</span>
+                <span className="timeline__date">{` (${props.year})`}</span>
             </div>
-            <h4>{props.location}</h4>
+            <h4 className="timeline__location">{props.location}</h4>
             <p className="timeline__text">{convertNewlinesToBreaks(props.desc)}</p>
         </div>
     );
