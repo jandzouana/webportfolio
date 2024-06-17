@@ -19,7 +19,7 @@
 }
 
 .project__title{
-    font-size: 1.75rem;
+    font-size: 1.65rem;
 }
 
 .project__subs{
@@ -36,7 +36,7 @@
 .project__tag{
     background-color: var(--accent-color);
     color: white;
-    padding: 0.5rem;
+    padding: 0.2rem 0.5rem;
     border-radius: 0.4rem;
 }
 

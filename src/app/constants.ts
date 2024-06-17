@@ -81,7 +81,7 @@ export const projects : Project[] = [
     {
         title: "Coding Portfolio",
         desc: "The website you're viewing now!",
-        tags: ["React", "Typescript", "CSS"],
+        tags: ["Frontend", "React", "Typescript", "CSS"],
         demoLink: "https://webportfolio-tau.vercel.app/",
         github: "https://github.com/jandzouana/webportfolio",
         thumbs: [concept1, concept2, concept3, concept4, concept5, concept6, concept7]
@@ -89,14 +89,14 @@ export const projects : Project[] = [
     {
         title: "Concept AI",
         desc: "Character Design project",
-        tags: ["React", "Typescript", "Tailwind CSS"],
+        tags: ["Frontend", "AI", "React", "Typescript", "Tailwind CSS"],
         demoLink: "https://concept-ai-tau.vercel.app/",
         thumbs: [concept1, concept2, concept3, concept4, concept5, concept6, concept7]
     },
     {
         title: "WordFlex",
         desc: "Translator project",
-        tags: ["React", "Typescript", "CSS"],
+        tags: ["Frontend", "AI", "React", "Typescript", "CSS"],
         github: "https://github.com/jandzouana/translator",
         demoLink: "https://translator-orpin.vercel.app/",
         thumbs: [word1, word2]
