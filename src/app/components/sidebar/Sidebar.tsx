@@ -23,7 +23,7 @@ const Sidebar : React.FC<Props> = () => {
                         </li>
                         <li className="nav__item">
                             <a href="#skills" className="nav__link">
-                                <i className="icon-fire"></i>
+                                <i className="icon-user"></i>
                             </a>
                         </li>
                         <li className="nav__item">

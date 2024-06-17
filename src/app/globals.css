@@ -180,16 +180,16 @@ body {
 
 /*====== Responsive =====*/
 
-@media screen and (max-width: 1024px){
+@media screen and (max-width: 768px){
   :root{
     --body-font: 'Rubik', sans-serif;
     --h1-font-size: 1.75rem;
     --h2-font-size: 1.25rem;
-    --h3-font-size: 1rem;
-    --h4-font-size: 0.9rem;
+    --h3-font-size: 1.1rem;
+    --h4-font-size: 1.1rem;
 
-    --regular-font-size: 0.938rem;
-    --small-font-size: 0.813rem;
+    --regular-font-size: 1rem;
+    --small-font-size: 0.9rem;
     --xs-font-size: 0.75rem;
   }
 }

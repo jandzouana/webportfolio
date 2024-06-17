@@ -129,16 +129,16 @@
     opacity: 100%;
 }
 
-.landing__socials {
+.landing__socials__container {
     margin-top: 1rem;
     display: flex;
-    flex-basis: 60px;
+    /*flex-basis: 60px;*/
     align-items: center;
     width: 100%;
     justify-content: space-between;
 }
 
-.landing__socials div {
+.landing__socials__container div {
     display: flex;
     gap: 10px;
 }
@@ -230,5 +230,11 @@
     }
     .scroll__down{
         display: none;
+    }
+
+    .landing__socials__container {
+        flex-direction: column-reverse;
+        gap: 3rem;
+        width: 100%;
     }
 }

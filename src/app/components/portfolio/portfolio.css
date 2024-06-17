@@ -103,6 +103,9 @@
     height: 0;
     padding-bottom: 100%; /* 16:9 aspect ratio */
     cursor: pointer;
+    /*display: flex;*/
+    /*justify-content: center;*/
+    /*align-items: center;*/
 }
 
 .carousel-image {
