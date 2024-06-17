@@ -7,6 +7,7 @@ import Portfolio from "@/app/components/portfolio/Portfolio";
 import Landing from "@/app/components/landing/Landing";
 import Head from "next/head";
 import "./assets/css/simple-line-icons.css";
+import Experience from "@/app/components/experience/Experience";
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
         <main className="main">
             <Landing/>
             <About/>
+            <Experience/>
             <Portfolio/>
         </main>
       </>
