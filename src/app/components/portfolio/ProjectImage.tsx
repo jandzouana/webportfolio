@@ -31,7 +31,7 @@ const ProjectImage: React.FC<ProjectImageProps> = ({ thumbs }) => {
                 >
                     {thumbs.map((thumb, idx) => (
                         <div key={idx} className="carousel-image-container" onClick={() => handleImageClick(thumb)}>
-                            <Image src={thumb} alt={`Project thumbnail ${idx}`} layout="fill" objectFit="cover" className="carousel-image"/>
+                            <Image src={thumb} alt={`Project thumbnail ${idx}`} layout="fill" objectFit="contain" className="carousel-image"/>
                         </div>
                     ))}
                 </Carousel>

@@ -104,7 +104,7 @@ export const projects : Project[] = [
     },
     {
         title: "Art Portfolio",
-        desc: "Translator project. Favicon provided by Freepik",
+        desc: "Portfolio of my artwork",
         tags: ["SASS", "HTML", "JavaScript", "CSS", "Design"],
         github: "https://github.com/jandzouana/portfolio",
         demoLink: "https://jandzouana.github.io/portfolio/",
