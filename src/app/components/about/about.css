@@ -1,3 +1,12 @@
+.skills__intro{
+    margin-bottom: 3.75rem;
+}
+
+.skills__intro span{
+    font-weight: bold;
+    /*color: var(--main-color)*/
+}
+
 .skills__container{
     display: flex;
     flex-wrap: wrap;

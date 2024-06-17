@@ -6,7 +6,7 @@ export interface Skill {
     image?: StaticImageData | null;
 }
 
-export interface Experience {
+export interface ExperienceType {
     category: ExpCategory;
     year: string;
     title: string;

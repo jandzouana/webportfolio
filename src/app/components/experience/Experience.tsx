@@ -2,7 +2,7 @@ import React from 'react';
 import "./experience.css";
 import { experienceList } from "@/app/constants";
 import { ExpCategory } from "@/app/enums";
-import { Experience } from "@/app/interfaces";
+import { ExperienceType } from "@/app/interfaces";
 
 const convertNewlinesToBreaks = (text: string) => {
     return text.split('\n').map((part, index) => (
@@ -32,7 +32,7 @@ const Experience = () => {
         <section className="experience container section" id="experience">
             <h2 className="section__title">Education & Experience</h2>
             <div className="timeline">
-                {experienceList.map((val: Experience, id: number) => (
+                {experienceList.map((val: ExperienceType, id: number) => (
                     <Card
                         key={id}
                         category={val.category}
