@@ -22,6 +22,7 @@ import concept7 from './assets/projects/concept7.png';
 import art1 from './assets/projects/art1.jpg';
 import word1 from './assets/projects/word1.png';
 import word2 from './assets/projects/word2.png';
+import port1 from './assets/projects/port1.png';
 
 import {ExperienceType, Project, Skill} from "@/app/interfaces";
 import {ExpCategory} from "@/app/enums";
@@ -81,24 +82,32 @@ export const projects : Project[] = [
     {
         title: "Coding Portfolio",
         desc: "The website you're viewing now!",
-        tags: ["Frontend", "React", "Typescript", "CSS"],
+        tags: ["Frontend", "React", "TypeScript", "CSS"],
         demoLink: "https://webportfolio-tau.vercel.app/",
         github: "https://github.com/jandzouana/webportfolio",
-        thumbs: [concept1, concept2, concept3, concept4, concept5, concept6, concept7]
+        thumbs: [port1]
     },
     {
         title: "Concept AI",
         desc: "Character Design project",
-        tags: ["Frontend", "AI", "React", "Typescript", "Tailwind CSS"],
+        tags: ["Frontend", "AI", "React", "TypeScript", "Tailwind CSS", "Design", "AdobeXD"],
         demoLink: "https://concept-ai-tau.vercel.app/",
         thumbs: [concept1, concept2, concept3, concept4, concept5, concept6, concept7]
     },
     {
         title: "WordFlex",
-        desc: "Translator project",
-        tags: ["Frontend", "AI", "React", "Typescript", "CSS"],
+        desc: "Translator project. Favicon provided by Freepik",
+        tags: ["Frontend", "AI", "React", "TypeScript", "CSS", "Design", "AdobeXD", "Redux"],
         github: "https://github.com/jandzouana/translator",
         demoLink: "https://translator-orpin.vercel.app/",
         thumbs: [word1, word2]
+    },
+    {
+        title: "Art Portfolio",
+        desc: "Translator project. Favicon provided by Freepik",
+        tags: ["SASS", "HTML", "JavaScript", "CSS", "Design"],
+        github: "https://github.com/jandzouana/portfolio",
+        demoLink: "https://jandzouana.github.io/portfolio/",
+        thumbs: [art1]
     }
 ]
