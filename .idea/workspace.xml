@@ -4,10 +4,8 @@
     <list default="true" id="45bfbb6d-1925-4f5e-8e33-d6211d496c48" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/components/about/About.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/about/About.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/components/about/about.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/about/about.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/components/landing/landing.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/landing/landing.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/constants.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/constants.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/interfaces.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/interfaces.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/landing/ScrollDown.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/landing/ScrollDown.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/sidebar/Sidebar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/sidebar/Sidebar.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +46,7 @@
       <recent name="C:\Users\jessi\Desktop\Jessica2024\Dev\WebPortfolio\WebPortfolio\src\app\assets\icons" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.dev">
+  <component name="RunManager" selected="npm.lint">
     <configuration name="build" type="js.build_tools.npm" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -95,7 +93,7 @@
       <updated>1718402931938</updated>
       <workItem from="1718402936337" duration="1354000" />
       <workItem from="1718404383477" duration="22264000" />
-      <workItem from="1718491123899" duration="2609000" />
+      <workItem from="1718491123899" duration="3951000" />
     </task>
     <servers />
   </component>

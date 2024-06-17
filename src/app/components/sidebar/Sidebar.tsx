@@ -21,7 +21,7 @@ const Sidebar : React.FC<Props> = () => {
                             </a>
                         </li>
                         <li className="nav__item">
-                            <a href="#about" className="nav__link">
+                            <a href="#skills" className="nav__link">
                                 <i className="icon-fire"></i>
                             </a>
                         </li>

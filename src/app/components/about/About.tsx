@@ -6,7 +6,7 @@ import Image from "next/image";
 interface Props {}
 
 const About : React.FC<Props> = () => {
-    const [skills, setSkills] = useState([]);
+    const [skills, setSkills] = useState<React.ReactNode[]>([]);
 
     const makeSkillsGrid = () => {
         const list = skillsList.map((skill, idx) => <div className={"skill__box"} key={idx}>
@@ -23,7 +23,7 @@ const About : React.FC<Props> = () => {
     }, [])
 
     return (
-        <section className="container about section" id="about">
+        <section className="container about section" id="skills">
             <h2 className="section__title">Skills</h2>
             <div className="skills__container container">
                 {skills}
