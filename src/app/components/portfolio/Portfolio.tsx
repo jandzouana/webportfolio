@@ -28,8 +28,10 @@ export const Card : React.FC<CardProps> = (props) => {
             <div className="project__tag__container">
                 {tags.map((tag, idx) => <div key={idx} className="project__tag">{tag}</div>)}
             </div>
-            <h3 className="project__subs">Description</h3>
-            <p>{desc}</p>
+            <div>
+                <h3 className="project__subs">Description</h3>
+                <p>{desc}</p>
+            </div>
             <div className="project__button__container">
                 {demoLink && <button className="btn" onClick={handleDemoClick}>View Project</button>}
                 {github && <button className="btn" onClick={handleGithubClick}>Github</button>}

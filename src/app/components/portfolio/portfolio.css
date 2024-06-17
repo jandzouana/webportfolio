@@ -15,16 +15,17 @@
 }
 
 .project__container h3{
-    font-size: var(--h3-font-size);
 
 }
 
 .project__title{
-
+    font-size: 1.75rem;
 }
 
 .project__subs{
+    font-size: var(--h3-font-size);
     color: var(--light-grey);
+    margin-bottom: 0.5rem;
 }
 
 .project__tag__container{

@@ -12,6 +12,16 @@ import redux from './assets/skills/redux.svg';
 import eth from './assets/skills/ethereum.svg';
 import react from './assets/skills/react.svg';
 import p5 from './assets/skills/p5js.svg';
+import concept1 from './assets/projects/concept1.png';
+import concept2 from './assets/projects/concept2.png';
+import concept3 from './assets/projects/concept3.png';
+import concept4 from './assets/projects/concept4.png';
+import concept5 from './assets/projects/concept5.png';
+import concept6 from './assets/projects/concept6.png';
+import concept7 from './assets/projects/concept7.png';
+import art1 from './assets/projects/art1.jpg';
+import word1 from './assets/projects/word1.png';
+import word2 from './assets/projects/word2.png';
 
 import {ExperienceType, Project, Skill} from "@/app/interfaces";
 import {ExpCategory} from "@/app/enums";
@@ -69,17 +79,26 @@ export const experienceList: ExperienceType[] = [
 
 export const projects : Project[] = [
     {
+        title: "Coding Portfolio",
+        desc: "The website you're viewing now!",
+        tags: ["React", "Typescript", "CSS"],
+        demoLink: "https://webportfolio-tau.vercel.app/",
+        github: "https://github.com/jandzouana/webportfolio",
+        thumbs: [concept1, concept2, concept3, concept4, concept5, concept6, concept7]
+    },
+    {
         title: "Concept AI",
         desc: "Character Design project",
         tags: ["React", "Typescript", "Tailwind CSS"],
-        github: "https://github.com",
-        demoLink: "https://"
+        demoLink: "https://concept-ai-tau.vercel.app/",
+        thumbs: [concept1, concept2, concept3, concept4, concept5, concept6, concept7]
     },
     {
         title: "WordFlex",
         desc: "Translator project",
         tags: ["React", "Typescript", "CSS"],
-        github: "https://github.com",
-        demoLink: "https://"
+        github: "https://github.com/jandzouana/translator",
+        demoLink: "https://translator-orpin.vercel.app/",
+        thumbs: [word1, word2]
     }
 ]
