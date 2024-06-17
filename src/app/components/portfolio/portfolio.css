@@ -6,12 +6,19 @@
 
 .project__container{
     display: flex;
-    flex-direction: column;
-    gap: 1.875rem;
+    justify-content: space-between;
     background-color: var(--container-color);
     box-shadow: var(--shadow);
     border-radius: var(--border-radius);
     padding: 3.5rem 3rem;
+}
+
+.project__text__container{
+    display: flex;
+    flex-direction: column;
+    gap: 1.875rem;
+    width: 50%;
+    /*border: 1px solid red;*/
 }
 
 .project__container h3{
@@ -31,6 +38,7 @@
 .project__tag__container{
     display: flex;
     gap: 1rem;
+    flex-wrap: wrap;
 }
 
 .project__tag{
@@ -43,8 +51,19 @@
 .project__button__container{
     display: flex;
     gap: 1rem;
+    flex-wrap: wrap;
 }
 
 .project__button__container button{
 
+}
+
+@media screen and (max-width: 768px) {
+    .project__container {
+        flex-direction: column;
+    }
+
+    .project__text__container {
+        width: 100%;
+    }
 }
