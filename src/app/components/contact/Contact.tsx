@@ -1,10 +1,11 @@
 import React, { useState } from 'react';
 import { useFormData } from 'herotofu-react';
 import "./contact.css";
+import {Status} from "@/app/interfaces";
 
 const Contact: React.FC = () => {
     const { formState, getFormSubmitHandler } = useFormData('https://public.herotofu.com/v1/b1bdc0d0-2db8-11ef-a512-2d50852e3019');
-    const [formValues, setFormValues] = useState({
+    const [formValues, setFormValues] = useState<Status>({
         name: '',
         email: '',
         subject: '',
@@ -25,7 +26,7 @@ const Contact: React.FC = () => {
     //     return !formValues.name && !formValues.email && !formValues.message && !formValues.subject;
     // }
 
-    const onSubmitCallback = ({ status, data }) => {
+    const onSubmitCallback = ({ status : Status, data }) => {
         console.log(`The form finished submission with status: ${status} and data: ${JSON.stringify(data)}`);
         if (status === 'success') {
             setFormValues({

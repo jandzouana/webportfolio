@@ -24,3 +24,10 @@ export interface Project {
     problem?: string;
     thumbs?: StaticImageData[] | null;
 }
+
+export interface Status {
+    name: string;
+    subject: string;
+    email: string;
+    message: string;
+}

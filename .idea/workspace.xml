@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="45bfbb6d-1925-4f5e-8e33-d6211d496c48" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/components/contact/Contact.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/contact/Contact.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/components/contact/contact.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/contact/contact.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/interfaces.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/interfaces.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
