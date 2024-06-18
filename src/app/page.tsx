@@ -8,6 +8,7 @@ import Landing from "@/app/components/landing/Landing";
 import Head from "next/head";
 import "./assets/css/simple-line-icons.css";
 import Experience from "@/app/components/experience/Experience";
+import Contact from "@/app/components/contact/Contact";
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
             <About/>
             <Experience/>
             <Portfolio/>
+            <Contact/>
         </main>
       </>
 

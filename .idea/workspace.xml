@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="45bfbb6d-1925-4f5e-8e33-d6211d496c48" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/app/components/portfolio/ProjectImage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/portfolio/ProjectImage.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/constants.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/constants.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/components/contact/Contact.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/components/contact/contact.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/sidebar/Sidebar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/sidebar/Sidebar.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/page.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,7 +94,7 @@
       <updated>1718402931938</updated>
       <workItem from="1718402936337" duration="1354000" />
       <workItem from="1718404383477" duration="22264000" />
-      <workItem from="1718491123899" duration="31880000" />
+      <workItem from="1718491123899" duration="34733000" />
     </task>
     <servers />
   </component>
