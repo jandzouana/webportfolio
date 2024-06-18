@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { useFormData } from 'herotofu-react';
+import { useFormData, RequestState } from 'herotofu-react';
 import "./contact.css";
 import {Status} from "@/app/interfaces";
 
@@ -27,7 +27,7 @@ const Contact: React.FC = () => {
     // }
 
 // @ts-ignore
-    const onSubmitCallback = ({ status, data }) => {
+    const onSubmitCallback: RequestState  = ({ status, data }) => {
         console.log(`The form finished submission with status: ${status} and data: ${JSON.stringify(data)}`);
         if (status === 'success') {
             setFormValues({
