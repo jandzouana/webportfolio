@@ -26,7 +26,8 @@ const Contact: React.FC = () => {
     //     return !formValues.name && !formValues.email && !formValues.message && !formValues.subject;
     // }
 
-    const onSubmitCallback = ({ status : Status, data }) => {
+
+    const onSubmitCallback = ({ status : Status, data }) => { // @ts-ignore
         console.log(`The form finished submission with status: ${status} and data: ${JSON.stringify(data)}`);
         if (status === 'success') {
             setFormValues({
