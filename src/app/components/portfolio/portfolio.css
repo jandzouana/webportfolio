@@ -6,11 +6,17 @@
 
 .project__container{
     display: flex;
-    justify-content: space-between;
-    background-color: var(--container-color);
+    flex-direction: column;
     box-shadow: var(--shadow);
     border-radius: var(--border-radius);
     padding: 3.5rem 3rem;
+    background-color: var(--container-color);
+    gap: 2rem;
+}
+
+.project__top{
+    display: flex;
+    justify-content: space-between;
 }
 
 .project__text__container{
@@ -56,7 +62,7 @@
 }
 
 .project__button__container button{
-
+    width: 180px;
 }
 
 /*=================Carousel==============*/
@@ -117,8 +123,16 @@
     /*object-fit: cover;*/
 }
 
-@media screen and (max-width: 768px) {
-    .project__container {
+@media screen and (max-width: 900px) {
+    /*.project__button__container{*/
+    /*    width: 100%;*/
+    /*    justify-content: center;*/
+    /*    flex-direction: column;*/
+    /*}*/
+    /*.project__button__container button{*/
+    /*    width: 100%;*/
+    /*}*/
+    .project__top {
         flex-direction: column;
         gap: 3rem;
     }
@@ -136,17 +150,18 @@
         flex-direction: row;
     }
     .project__button__container button{
-        width: 40%;
+        width: 45%;
     }
 }
 
-@media screen and (max-width: 512px) {
+@media screen and (max-width: 768px) {
+
+}
+
+@media screen and (max-width: 600px) {
     .project__button__container{
         width: 100%;
         justify-content: center;
         flex-direction: column;
-    }
-    .project__button__container button{
-        width: 100%;
     }
 }

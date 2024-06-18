@@ -28,9 +28,10 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
 }
 
-.landing__img img{
+.profile__pic{
     border-radius: 50%;
     object-fit: cover;
 }
@@ -116,6 +117,8 @@
 .resume__button {
     background-color: var(--main-color);
     color: white;
+    width: 180px;
+    margin-top: 2rem;
 }
 
 .social-icons {
@@ -135,13 +138,12 @@
     /*flex-basis: 60px;*/
     align-items: center;
     width: 100%;
-    justify-content: space-between;
-}
-
-.landing__socials__container div {
-    display: flex;
+    justify-content: center;
+    /*border: 1px solid red;*/
     gap: 10px;
 }
+
+
 
 /*=====Scroll Down=======*/
 .scroll__down{
@@ -218,6 +220,7 @@
     }
     .left{
         width: 100%;
+        /*align-items: center;*/
     }
     .left p{
         /*max-height: 100px;*/
@@ -233,9 +236,18 @@
     }
 
     .landing__socials__container {
-        flex-direction: column-reverse;
-        gap: 3rem;
+        gap: 2rem;
         width: 100%;
         margin-top: 2rem;
     }
+
+    .social-icons{
+        width: 40px;
+        height: 40px;
+    }
+
+    /*.text-animation{*/
+    /*    justify-content: center;*/
+    /*    width: 100%;*/
+    /*}*/
 }

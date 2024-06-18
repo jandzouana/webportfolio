@@ -73,7 +73,7 @@
 @media screen and (max-width: 768px){
     .contact__form{
         width: 100%;
-        align-items: center;
+        /*align-items: center;*/
     }
     .contact__form-group{
         display: flex;

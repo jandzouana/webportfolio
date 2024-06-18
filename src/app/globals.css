@@ -140,6 +140,7 @@ img{
   display: inline-block;
   background-color: var(--main-color);
   font-weight: var(--font-bold);
+  /*min-width: 180px;*/
 }
 
 @keyframes button-push {
@@ -191,5 +192,12 @@ body {
     --regular-font-size: 1rem;
     --small-font-size: 0.9rem;
     --xs-font-size: 0.75rem;
+  }
+}
+
+@media screen and (max-width: 600px){
+  .btn{
+    width: 100% !important;
+    text-align: center;
   }
 }
