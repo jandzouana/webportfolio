@@ -1,6 +1,6 @@
 import React from 'react'
 import "./landing.css";
-import Me from "../../assets/icons/avatar.jpg";
+import Me from "../../assets/avatar.png";
 import Image from "next/image";
 import LandingSocials from "./LandingSocials";
 import ScrollDown from "./ScrollDown";
