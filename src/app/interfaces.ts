@@ -20,5 +20,7 @@ export interface Project {
     demoLink: string;
     github?: string;
     desc: string;
+    purpose?: string;
+    problem?: string;
     thumbs?: StaticImageData[] | null;
 }

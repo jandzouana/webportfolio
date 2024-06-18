@@ -23,6 +23,7 @@ import art1 from './assets/projects/art1.jpg';
 import word1 from './assets/projects/word1.png';
 import word2 from './assets/projects/word2.png';
 import port1 from './assets/projects/port1.png';
+import port2 from './assets/projects/port2.png';
 
 import {ExperienceType, Project, Skill} from "@/app/interfaces";
 import {ExpCategory} from "@/app/enums";
@@ -80,31 +81,37 @@ export const experienceList: ExperienceType[] = [
 
 export const projects : Project[] = [
     {
-        title: "Coding Portfolio",
-        desc: "The website you're viewing now!",
-        tags: ["Frontend", "React", "TypeScript", "CSS"],
-        demoLink: "https://webportfolio-tau.vercel.app/",
-        github: "https://github.com/jandzouana/webportfolio",
-        thumbs: [port1]
-    },
-    {
         title: "Concept AI",
-        desc: "Character Design project",
+        desc: "Concept AI is an intuitive, AI-powered application that enables users to create detailed character sheets in various styles, with advanced features such as positive and negative prompt generation, resolution settings, and scaling.",
+        purpose: " To provide a versatile tool for artists, writers, and game developers to generate character concepts efficiently and creatively.",
+        problem: "Traditional character creation can be time-consuming and require multiple tools. Concept AI simplifies this process by integrating advanced settings like textual inversion, number of steps, LoRAs, VAE, and scaling with denoise, all in one user-friendly app.",
         tags: ["Frontend", "AI", "React", "TypeScript", "Tailwind CSS", "Design", "AdobeXD"],
         demoLink: "https://concept-ai-tau.vercel.app/",
-        thumbs: [concept1, concept2, concept3, concept4, concept5, concept6, concept7]
+        thumbs: [concept1, concept5, concept2, concept3, concept4, concept6, concept7]
     },
     {
         title: "WordFlex",
-        desc: "Translator project. Favicon provided by Freepik",
+        desc: "WordFlex is a smart, AI-powered translation app designed for context-aware translations, offering various tones, dialects, and levels of formality. Favicon provided by Freepik",
+        purpose: "To assist multilingual speakers in achieving accurate translations tailored to different contexts and situations.",
+        problem: "Standard translation tools often fail to consider the nuances of language use in different scenarios. As a trilingual speaker, I recognized the need for an app that could provide more context-sensitive translations, ensuring better communication across languages.",
         tags: ["Frontend", "AI", "React", "TypeScript", "CSS", "Design", "AdobeXD", "Redux"],
         github: "https://github.com/jandzouana/translator",
         demoLink: "https://translator-orpin.vercel.app/",
         thumbs: [word1, word2]
     },
     {
+        title: "Coding Portfolio",
+        desc: "This project showcases the website you are currently viewing, built using modern web technologies and pure CSS for precise control over the design.",
+        purpose: "To create a personal portfolio that demonstrates my web development skills and aesthetic sense. The challenge was to design a visually appealing and responsive website without relying on frameworks, ensuring complete customization and uniqueness. Thanks to Cryptical Coder's tutorial for providing design inspiration and foundational guidance.",
+        tags: ["Frontend", "React", "TypeScript", "CSS"],
+        demoLink: "https://webportfolio-tau.vercel.app/",
+        github: "https://github.com/jandzouana/webportfolio",
+        thumbs: [port2, port1]
+    },
+    {
         title: "Art Portfolio",
-        desc: "Portfolio of my artwork",
+        desc: "This project is my artistic portfolio, showcasing a collection of my artwork and animations created over the years, built with HTML, vanilla JS, CSS, and SASS.",
+        purpose: "The purpose is to display my artistic talents and development skills, highlighting my proficiency in creating visually engaging content. While modern technologies offer many conveniences, I aimed to demonstrate my ability to use fundamental frontend development tools to create a polished and functional art portfolio.",
         tags: ["SASS", "HTML", "JavaScript", "CSS", "Design"],
         github: "https://github.com/jandzouana/portfolio",
         demoLink: "https://jandzouana.github.io/portfolio/",
