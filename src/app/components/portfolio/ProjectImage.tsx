@@ -27,7 +27,6 @@ const ProjectImage: React.FC<ProjectImageProps> = ({ thumbs }) => {
             <div className="project__image__container">
                 <Carousel
                     infiniteLoop={true}
-                    showThumbs={true}
                 >
                     {thumbs.map((thumb, idx) => (
                         <div key={idx} className="carousel-image-container" onClick={() => handleImageClick(thumb)}>

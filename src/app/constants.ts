@@ -85,7 +85,7 @@ export const projects : Project[] = [
         desc: "Concept AI is an intuitive, AI-powered application that enables users to create detailed character sheets in various styles, with advanced features such as positive and negative prompt generation, resolution settings, and scaling.",
         purpose: " To provide a versatile tool for artists, writers, and game developers to generate character concepts efficiently and creatively.",
         problem: "Traditional character creation can be time-consuming and require multiple tools. Concept AI simplifies this process by integrating advanced settings like textual inversion, number of steps, LoRAs, VAE, and scaling with denoise, all in one user-friendly app.",
-        tags: ["Frontend", "AI", "React", "TypeScript", "Tailwind CSS", "Design", "AdobeXD"],
+        tags: ["Frontend", "AI", "React", "Next.js", "TypeScript", "Tailwind CSS", "Design", "AdobeXD"],
         demoLink: "https://concept-ai-tau.vercel.app/",
         thumbs: [concept1, concept5, concept2, concept3, concept4, concept6, concept7]
     },
@@ -94,7 +94,7 @@ export const projects : Project[] = [
         desc: "WordFlex is a smart, AI-powered translation app designed for context-aware translations, offering various tones, dialects, and levels of formality. Favicon provided by Freepik",
         purpose: "To assist multilingual speakers in achieving accurate translations tailored to different contexts and situations.",
         problem: "Standard translation tools often fail to consider the nuances of language use in different scenarios. As a trilingual speaker, I recognized the need for an app that could provide more context-sensitive translations, ensuring better communication across languages.",
-        tags: ["Frontend", "AI", "React", "TypeScript", "CSS", "Design", "AdobeXD", "Redux"],
+        tags: ["Frontend", "AI", "React", "Next.js", "TypeScript", "CSS", "Design", "AdobeXD", "Redux"],
         github: "https://github.com/jandzouana/translator",
         demoLink: "https://translator-orpin.vercel.app/",
         thumbs: [word1, word2]
@@ -103,7 +103,7 @@ export const projects : Project[] = [
         title: "Coding Portfolio",
         desc: "This project showcases the website you are currently viewing, built using modern web technologies and pure CSS for precise control over the design.",
         purpose: "To create a personal portfolio that demonstrates my web development skills and aesthetic sense. The challenge was to design a visually appealing and responsive website without relying on frameworks, ensuring complete customization and uniqueness. Thanks to Cryptical Coder's tutorial for providing design inspiration and foundational guidance.",
-        tags: ["Frontend", "React", "TypeScript", "CSS"],
+        tags: ["Frontend", "React", "TypeScript", "CSS", "Next.js"],
         demoLink: "https://webportfolio-tau.vercel.app/",
         github: "https://github.com/jandzouana/webportfolio",
         thumbs: [port2, port1]
