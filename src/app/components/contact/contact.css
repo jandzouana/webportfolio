@@ -59,6 +59,17 @@
     margin-left: 1rem;
 }
 
+.contact-message{
+    margin-bottom: 1rem;
+}
+
+.thank-you-message{
+    color: var(--accent-color);
+}
+.error-message{
+    color: red;
+}
+
 @media screen and (max-width: 768px){
     .contact__form{
         width: 100%;
