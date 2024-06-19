@@ -10,7 +10,7 @@ const Landing = () => {
     return (
         <section className="landing container" id="home">
             <div className="intro">
-                <div className="left">
+                <div className="left container">
                     <h1 className="landing__header">Hi, it&#39;s <span className="landing__name">Jessica Andzouana</span></h1>
                     <h3 className="text-animation">I&#39;m a&nbsp;<span></span></h3>
                     <p className="about__blurb">{aboutBlurb}</p>

@@ -61,3 +61,9 @@
         align-items: flex-start;
     }
 }
+
+@media screen and (max-width: 600px) {
+    .timeline{
+        padding: 3.5rem 2rem;
+    }
+}
