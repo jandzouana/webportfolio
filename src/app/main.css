@@ -6,3 +6,9 @@ html, body {
 .main{
     margin-left: 110px;
 }
+
+@media (max-width: 768px) {
+    .main {
+        margin-left: 0px;
+    }
+}
