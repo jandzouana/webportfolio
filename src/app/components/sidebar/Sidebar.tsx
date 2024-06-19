@@ -38,11 +38,15 @@ const Sidebar : React.FC<Props> = () => {
     return (
         <>
             {isMobile && (
-                <div className="nav__menu__icon" onClick={handleMenuClick}>
+                <div className="nav__menu__icon absolute" onClick={handleMenuClick}>
                     <i className={`${isOpen ? "icon-menu" : "icon-menu"}`}></i>
                 </div>
             )}
             <aside className={`aside ${isOpen ? "show" : "hide"}`}>
+                {isMobile && (
+                    <div className="close__icon" onClick={handleMenuClick}>
+                        <i className="icon-close"></i>
+                    </div>)}
                 <a href="#home" className="nav__logo">
                     <Image src={Logo} alt="Logo"/>
                 </a>
