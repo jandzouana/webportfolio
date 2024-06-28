@@ -45,7 +45,17 @@ const Contact: React.FC = () => {
             <div className="contact__container grid">
                 <div className="contact__info">
                     <h3 className="contact__title">Let&apos;s chat!</h3>
-                    <p className="contact__details">Don&apos;t like forms? Let&apos;s talk on LinkedIn!</p>
+                    <p className="contact__details">
+                        Don&apos;t like forms? Let&apos;s talk on{' '}
+                        <a
+                            className="linkedin"
+                            href="https://www.linkedin.com/in/jandzouana"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            LinkedIn
+                        </a>!
+                    </p>
                 </div>
                 <form onSubmit={getFormSubmitHandler(onSubmitCallback)} className="contact__form">
                     <div className="contact__form-group">

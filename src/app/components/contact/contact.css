@@ -70,6 +70,10 @@
     color: red;
 }
 
+.linkedin{
+    color: var(--accent-color);
+}
+
 @media screen and (max-width: 768px){
     .contact__form{
         width: 100%;
