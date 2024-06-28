@@ -42,7 +42,7 @@ const Sidebar : React.FC<Props> = () => {
                     <i className={`${isOpen ? "icon-menu" : "icon-menu"}`}></i>
                 </div>
             )}
-            <aside className={`aside ${isOpen ? "show" : "hide"}`}>
+            <aside className={`aside ${(isOpen || !isMobile) ? "show" : "hide"}`}>
                 {isMobile && (
                     <div className="close__icon" onClick={handleMenuClick}>
                         <i className="icon-close"></i>
