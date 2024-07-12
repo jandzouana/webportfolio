@@ -24,6 +24,12 @@ import word1 from './assets/projects/word1.png';
 import word2 from './assets/projects/word2.png';
 import port1 from './assets/projects/port1.png';
 import port2 from './assets/projects/port2.png';
+import cc1 from './assets/projects/cc1.png';
+import cc2 from './assets/projects/cc2.png';
+import cc3 from './assets/projects/cc3.png';
+import cc4 from './assets/projects/cc4.png';
+import cc5 from './assets/projects/cc5.png';
+import cc6 from './assets/projects/cc6.png';
 
 import {ExperienceType, Project, Skill} from "@/app/interfaces";
 import {ExpCategory} from "@/app/enums";
@@ -80,6 +86,16 @@ export const experienceList: ExperienceType[] = [
 ];
 
 export const projects : Project[] = [
+    {
+        title: "CompetesTV",
+        desc: "CompetesTV is an innovative video competition iOS app that enables creators to showcase their talents, connect with a wider audience, and compete for fame and prizes.",
+        purpose: "To establish a platform where creators can participate in short-form video competitions.",
+        responsibilities: "I am primarily responsible for managing and developing features for CompetesStudio, the companion React app for content creators. The app allows creators to create contests, upload videos, and view comments. Additionally, I assist with the development and management of the main iOS app.",
+        problem: "Providing a smooth user experience with concurrent video streaming has been a challenge for developers over the years. This app leverages AlcaCruz's multiview technology to offer users a new way to engage with short-form content, while also providing benefits such as increased discoverability and the opportunity to win prizes.",
+        tags: ["Frontend", "iOS", "React", "Next.js", "TypeScript", "Tailwind CSS", "Swift"],
+        demoLink: "https://studio.competes.tv",
+        thumbs: [cc1, cc2, cc3, cc4, cc5, cc6]
+    },
     {
         title: "Concept AI",
         desc: "Concept AI is an intuitive, AI-powered application that enables users to create detailed character sheets in various styles, with advanced features such as positive and negative prompt generation, resolution settings, and scaling.",

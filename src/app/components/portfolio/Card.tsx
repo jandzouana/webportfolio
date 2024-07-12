@@ -9,7 +9,7 @@ interface CardProps {
 }
 
 export const Card: React.FC<CardProps> = (props) => {
-    const { title, desc, tags, demoLink, github, thumbs, purpose, problem } = props.project;
+    const { title, desc, tags, demoLink, github, thumbs, purpose, problem, responsibilities } = props.project;
 
     const handleDemoClick = () => {
         if (demoLink) window.open(demoLink, '_blank');
@@ -42,6 +42,10 @@ export const Card: React.FC<CardProps> = (props) => {
                     {problem && <div>
                         <h3 className="project__subs">Problem to Solution</h3>
                         <p>{problem}</p>
+                    </div>}
+                    {responsibilities && <div>
+                        <h3 className="project__subs">Responsibilities</h3>
+                        <p>{responsibilities}</p>
                     </div>}
                 </div>
                 <ProjectImage thumbs={thumbs} />

@@ -23,6 +23,7 @@ export interface Project {
     purpose?: string;
     problem?: string;
     thumbs?: StaticImageData[] | null;
+    responsibilities?: string;
 }
 
 export interface Status {
