@@ -24,12 +24,12 @@ import word1 from './assets/projects/word1.png';
 import word2 from './assets/projects/word2.png';
 import port1 from './assets/projects/port1.png';
 import port2 from './assets/projects/port2.png';
-import cc1 from './assets/projects/cc1.PNG';
-import cc2 from './assets/projects/cc2.PNG';
-import cc3 from './assets/projects/cc3.PNG';
-import cc4 from './assets/projects/cc4.PNG';
-import cc5 from './assets/projects/cc5.PNG';
-import cc6 from './assets/projects/cc6.PNG';
+import cc1 from './assets/projects/cc1.png';
+import cc2 from './assets/projects/cc2.png';
+import cc3 from './assets/projects/cc3.png';
+import cc4 from './assets/projects/cc4.png';
+import cc5 from './assets/projects/cc5.png';
+import cc6 from './assets/projects/cc6.png';
 
 import {ExperienceType, Project, Skill} from "@/app/interfaces";
 import {ExpCategory} from "@/app/enums";
