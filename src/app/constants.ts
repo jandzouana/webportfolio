@@ -30,6 +30,8 @@ import cc3 from './assets/projects/cc3.png';
 import cc4 from './assets/projects/cc4.png';
 import cc5 from './assets/projects/cc5.png';
 import cc6 from './assets/projects/cc6.png';
+import dalle1 from './assets/projects/dalle1.png';
+import dalle2 from './assets/projects/dalle2.png';
 
 import {ExperienceType, Project, Skill} from "@/app/interfaces";
 import {ExpCategory} from "@/app/enums";
@@ -104,6 +106,14 @@ export const projects : Project[] = [
         tags: ["Frontend", "AI", "React", "Next.js", "TypeScript", "Tailwind CSS", "Design", "AdobeXD"],
         demoLink: "https://concept-ai-tau.vercel.app/",
         thumbs: [concept1, concept5, concept2, concept3, concept4, concept6, concept7]
+    },
+    {
+        title: "DALL-E 2.0",
+        desc: "A clone of OpenAI's DALL-E, a popular image generating platform.",
+        purpose: "To learn the tools needed to create an image generation platform.",
+        tags: ["Fullstack", "MERN", "AI", "Vite", "Typescript", "React", "Tailwind CSS", "Node.js", "MongoDB"],
+        demoLink: "https://ai-image-gen-orcin.vercel.app/",
+        thumbs: [dalle1, dalle2]
     },
     {
         title: "WordFlex",
