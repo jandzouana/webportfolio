@@ -34,6 +34,11 @@ import cc5 from './assets/projects/cc5.png';
 import cc6 from './assets/projects/cc6.png';
 import dalle1 from './assets/projects/dalle1.png';
 import dalle2 from './assets/projects/dalle2.png';
+import mastery from './assets/projects/mastery1.jpg';
+import mastery2 from './assets/projects/mastery2.jpg';
+import mastery3 from './assets/projects/mastery3.jpg';
+import mastery4 from './assets/projects/mastery4.jpg';
+import mastery5 from './assets/projects/mastery5.jpg';
 
 import {ExperienceType, Project, Skill} from "@/app/interfaces";
 import {ExpCategory} from "@/app/enums";
@@ -93,6 +98,14 @@ export const experienceList: ExperienceType[] = [
 
 export const projects : Project[] = [
     {
+        title: "Mastery",
+        demoLink: "https://testflight.apple.com/join/2WW7EpNK",
+        thumbs: [mastery, mastery2, mastery3, mastery4, mastery5],
+        tags: ["React Native", "iOS", "Android", "Product Development", "Design"],
+        desc: "Mastery is the ultimate habit tracker designed to help you achieve mastery in any skill. With an intuitive interface, personalized skill screens, and visual progress tracking, Mastery turns practice into a fun and motivating journey towards expertise.",
+        purpose: "To provide a personalized learning experience that motivates users to stay committed to their goals and achieve mastery in any skill."
+    },
+    {
         title: "CompetesTV",
         desc: "CompetesTV is an innovative video competition iOS app that enables creators to showcase their talents, connect with a wider audience, and compete for fame and prizes.",
         purpose: "To establish a platform where creators can participate in short-form video competitions.",
@@ -107,7 +120,7 @@ export const projects : Project[] = [
         desc: "Concept AI is an intuitive, AI-powered application that enables users to create detailed character sheets in various styles, with advanced features such as positive and negative prompt generation, resolution settings, and scaling.",
         purpose: " To provide a versatile tool for artists, writers, and game developers to generate character concepts efficiently and creatively.",
         problem: "Traditional character creation can be time-consuming and require multiple tools. Concept AI simplifies this process by integrating advanced settings like textual inversion, number of steps, LoRAs, VAE, and scaling with denoise, all in one user-friendly app.",
-        tags: ["Frontend", "AI", "React", "Next.js", "TypeScript", "Tailwind CSS", "Design", "AdobeXD"],
+        tags: ["Frontend", "AI", "React", "Next.js", "TypeScript", "Tailwind CSS", "Design", "AdobeXD", "Product Development" ],
         demoLink: "https://concept-ai-tau.vercel.app/",
         thumbs: [concept1, concept5, concept2, concept3, concept4, concept6, concept7]
     },
@@ -124,7 +137,7 @@ export const projects : Project[] = [
         desc: "WordFlex is a smart, AI-powered translation app designed for context-aware translations, offering various tones, dialects, and levels of formality. Favicon provided by Freepik",
         purpose: "To assist multilingual speakers in achieving accurate translations tailored to different contexts and situations.",
         problem: "Standard translation tools often fail to consider the nuances of language use in different scenarios. As a trilingual speaker, I recognized the need for an app that could provide more context-sensitive translations, ensuring better communication across languages.",
-        tags: ["Frontend", "AI", "React", "Next.js", "TypeScript", "CSS", "Design", "AdobeXD", "Redux"],
+        tags: ["Frontend", "Product Development", "AI", "React", "Next.js", "TypeScript", "CSS", "Design", "AdobeXD", "Redux"],
         github: "https://github.com/jandzouana/translator",
         demoLink: "https://translator-orpin.vercel.app/",
         thumbs: [word1, word2]
