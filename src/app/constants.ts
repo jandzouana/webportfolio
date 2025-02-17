@@ -63,30 +63,29 @@ export const experienceList: ExperienceType[] = [
         year: "2023 - present",
         location: "CompetesTV",
         title: "Senior Software Engineer",
-        desc: "• Develop key features and intuitive UI for Competes Studio app using React, Tailwind CSS, Next.js, and JavaScript, increasing engagement and user-generated content on the CompetesTV app\n• Manage client-side development for React, iOS and Android apps, conducting code reviews, tracking tasks and deadlines, and integrating SDKs, contributing to a successful iOS app launch\n• Provide strategic leadership in design decisions for our apps by facilitating collaborative meetings, creating mockups, and reviewing Figma designs, enhancing user experience and increasing customer satisfaction"
+        desc: "• Spearheaded end-to-end development of Competes Studio's user-facing features using React, transforming Figma prototypes into production-ready interfaces through iterative design reviews\n• Created performant UI components that streamlined content submission workflows, reducing redundant code by 40% through strategic component library implementation with Tailwind CSS\n• Developed and launched a web player feature, boosting the app's marketability, elevating content watch time, and optimizing content management processes.\n• Championed performance enhancements through bundle size optimization and strategic caching, reducing average page load times for key user journeys"
     },
     {
         category: ExpCategory.work,
-        year: "2018 - present",
+        year: "2018 - 2023",
         location: "AlcaCruz Inc.",
         title: "Senior Software Engineer",
-        desc: "• Architected and developed the cutting-edge Multiview and VR SDK, enabling a low-latency 8K VR streaming service that directly contributed to securing high-profile clients, including the telecommunications giant KT\n• Implemented web & mobile sample projects to demonstrate the usage of the VR and Multiview video player SDKs, facilitating a seamless adoption of the tech"
+        desc: "• Pioneered the client-side architecture of the groundbreaking SuperStream SDK, enabling ultra-high quality, low-latency 8K VR streaming, which directly led to partnerships with major telecom companies like KT\n• Designed and implemented responsive, user-friendly interfaces for the Multiview SDK powering CompetesTV's video competition platform using React, JavaScript, and CSS\n• Engineered polished web and mobile sample projects showcasing video streaming SDK capabilities, significantly improving client onboarding and adoption rates\n• Led frontend best practices implementation through code reviews, documentation, and mentoring, focusing on performance optimization and modular component design"
     },
     {
         category: ExpCategory.work,
         year: "2017 - 2018",
         location: "Sturfee Inc.",
         title: "Software Engineering Intern",
-        desc: "• Developed robust Unity3D C# scripts that integrated game mechanics, physics simulations, and intuitive UI, ensuring a smooth and engaging user experience of an innovative, location-based, cross-platform AR game\n• Created 2D and 3D art assets using Illustrator and Photoshop for the app UI and game environment, elevating the app's UI and immersive game environment, increasing user engagement"
+        desc: "• Developed core game mechanics and UI for a location-based MR/AR game on Android and iOS using Unity and C#\n• Engineered seamless integration between frontend systems and API services, enhancing real-time data flow\n• Created visually appealing 2D and 3D art assets using Illustrator and Photoshop, elevating the game's aesthetic appeal\n• Implemented physics-based interactions and responsive user interfaces, significantly improving player engagement"
     },
     {
         category: ExpCategory.education,
         year: "2013 - 2017",
         location: "Santa Clara University",
         title: "BS Computer Science, BA Studio Art",
-        desc: "Graduated from Santa Clara University with a double major in Computer Science and Studio Art. This unique combination provided a robust foundation in software development and technical problem-solving, complemented by creative skills in visual design and artistic expression. Developed a versatile skill set, blending analytical thinking with artistic creativity, preparing for innovative contributions in both tech and creative industries."
-    }
-];
+        desc: "Graduated from Santa Clara University with a double major in Computer Science and Studio Art. This distinctive combination laid a strong foundation in software development and technical problem-solving, while also fostering creative skills in visual design and artistic expression. I cultivated a versatile skill set that harmonizes analytical thinking with artistic creativity, preparing me to make innovative contributions in both technology and the creative sectors."
+    }];
 
 export const projects : Project[] = [
     {
