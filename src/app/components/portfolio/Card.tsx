@@ -40,7 +40,7 @@ export const Card: React.FC<CardProps> = (props) => {
                         <p>{purpose}</p>
                     </div>}
                     {problem && <div>
-                        <h3 className="project__subs">Problem to Solution</h3>
+                        <h3 className="project__subs">Problem and Solution</h3>
                         <p>{problem}</p>
                     </div>}
                     {responsibilities && <div>
