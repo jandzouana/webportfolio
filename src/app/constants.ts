@@ -1,3 +1,5 @@
+import db from './assets/skills/db.svg';
+import hexagon from './assets/skills/hex.svg';
 import js from './assets/skills/js.svg';
 import css from './assets/skills/css3.svg';
 import html from './assets/skills/html5.svg';
@@ -47,8 +49,10 @@ export const skillsList: Skill[] = [
     { name: "HTML", image: html },
     { name: "CSS", image: css },
     { name: "Tailwind", image: tailwind },
-    { name: "Next", image: next },
+    { name: "Next.js", image: next },
     { name: "Redux", image: redux },
+    {name: "MongoDB", image: db},
+    {name: "Node.js", image: hexagon},
     { name: "Mobile", image: mobile },
     { name: "Design", image: art },
     { name: "P5.js", image: p5 },
