@@ -52,6 +52,7 @@ export const skillsList: Skill[] = [
     { name: "Mobile", image: mobile },
     { name: "Design", image: art },
     { name: "P5.js", image: p5 },
+    { name: "React Native", image: react },
     { name: "Web3", image: eth },
     { name: "XR", image: vr },
 ];
