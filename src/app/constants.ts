@@ -147,7 +147,7 @@ export const projects : Project[] = [
         desc: "This project showcases the website you are currently viewing, built using modern web technologies and pure CSS for precise control over the design.",
         purpose: "To create a personal portfolio that demonstrates my web development skills and aesthetic sense. The challenge was to design a visually appealing and responsive website without relying on frameworks, ensuring complete customization and uniqueness. Thanks to Cryptical Coder's tutorial for providing design inspiration and foundational guidance.",
         tags: ["Frontend", "React", "TypeScript", "CSS", "Next.js"],
-        demoLink: "https://webportfolio-tau.vercel.app/",
+        demoLink: "https://coderjess.com/",
         github: "https://github.com/jandzouana/webportfolio",
         thumbs: [port2, port1]
     },
